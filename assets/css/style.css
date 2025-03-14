@@ -1,5 +1,11 @@
-/*Variables = :root*/
+/*Google fonts - Poppins*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Google fonts - Orbitron*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Variables = :root*/
 
 :root {
     --colorBack: #272727;
@@ -7,7 +13,8 @@
     --colorHeader: #0A0A0A;
     --colorSelect: #D000DE;
     font-family: "Poppins", sans-serif;
-    font-style: normal;
+    font-weight: 100;
+    font-style: normal; /*Aplaing poppins font in all site with "poppins thin"*/
 }
 
 *{
@@ -64,27 +71,35 @@ header img {
     transition: 0.5s ease;
 }
 
+
+/*main*/
 #apresentation{
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
 
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 30px;
     margin-right: 30px;
 }
 
 #apresentation img{
     width: 75%;
-    filter: grayscale(80%);
-    transition: all 1s ease;
+    filter: grayscale(100%); /*make it the image in grayscale*/
 }
 
-#apresntation img:hover {
+#apresentation img:hover{
     filter: grayscale(0%);
+    transition:all 1s ease /*make the img in normal scale color*/
 }
 
 #apresentation div{
     width: 25%;
+    color: var(--colorFont);
+}
+
+#apresentation div h2{
+    display: flex;
+    align-items: center;
 }
