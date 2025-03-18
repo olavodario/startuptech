@@ -12,15 +12,15 @@
     --colorFont: #f5f5f5;
     --colorHeader: #0A0A0A;
     --colorSelect: #D000DE;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal; /*Aplaing poppins font in all site with "poppins thin"*/
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal; /*Aplaing poppins font in all site with "poppins thin"*/
 }
 
 /* Logo header*/
@@ -102,15 +102,25 @@ header img {
 }
 
 #apresentation div h2{
-    display: flex;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 50px;
     text-align: center;
+    width: 100%;
     margin: 10px 0px 20px 0px;
 }
+
+#apresentation div h3{
+    padding: 0px 35px 20px 35px;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 
 
