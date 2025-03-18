@@ -122,7 +122,25 @@ header img {
 }
 
 #apresentation div p{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 20px 20px;
+    font-weight: 200;
+    text-align: start;
 }
 
+#apresentation div button{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 70px auto;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--colorFont);
+    color: var(--colorBack);
+}
 
+#apresentation div button:hover{
+    background-color: var(--colorHeader);
+    color: var(--colorFont);
+    transition: all 0.3s ease;
+}
