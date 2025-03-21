@@ -1,61 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lading Page da Startup Tech">
-    <meta name="keywords" content="Tecnologia, Inovação, Inovacao, Empresas de Tecnologia, Sistemas de Informações">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lading Page da Startup Tech" />
+    <meta
+      name="keywords"
+      content="Tecnologia, Inovação, Inovacao, Empresas de Tecnologia, Sistemas de Informações"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <title>StartupTech</title>
-    <link rel="shortcut icon" href="assets/icons/logo_startuptech.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/icons/logo_startuptech.png"
+      type="image/x-icon"
+    />
     <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <img src="assets/icons/logo_startuptech.png" alt="logo da StartupTech">
-        <nav class="header-nav">
-            <a href="index.html" class="header-nav-a">
-                <i class="fa-solid fa-house"></i>
-                <span>Home</span>
-            </a>
-            <a href="" class="header-nav-a">
-                <i class="fa-solid fa-toolbox"></i>
-                <span>Services</span>
-            </a>
-            <a href="" class="header-nav-a">
-                <i class="fa-solid fa-circle-info"></i>
-                <span>About</span>
-            </a>
-            <a href="www.github.com/olavodario" class="header-nav-a">
-                <i class="fa-solid fa-comments"></i>
-                <span>Contact</span>
-            </a>
-        </nav>
+      <img src="assets/icons/logo_startuptech.png" alt="logo da StartupTech" />
+      <nav class="header-nav">
+        <a href="index.html" class="header-nav-a">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+        <a href="#services" class="header-nav-a">
+          <i class="fa-solid fa-toolbox"></i>
+          <span>Services</span>
+        </a>
+        <a href="" class="header-nav-a">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>About</span>
+        </a>
+        <a href="www.github.com/olavodario" class="header-nav-a">
+          <i class="fa-solid fa-comments"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
     </header>
+    <!--Area princiapal da pagina-->
     <main>
-        <section id="apresentation">
-            <img src="assets/img/bg_apresentacao.jpeg" alt="apresentation image">
-            <div>
-                <h2>Startup Tech</h2>
-                <h3>The best technology development hub in Brazil.</h3>
-                <p>
-                    Startup Tech is an innovation hub focused on developing cutting-edge technological solutions.
-                </p>
-                <p>
-                    Our mission is to drive digital transformation through intelligent software, automation, and artificial intelligence. We harness modern technologies to create scalable, efficient products that help companies optimize processes and reach new heights.
-                </p>
-                <p>
-                    With a highly skilled team passionate about innovation, we are always on the lookout for fresh opportunities to revolutionize the market. Whether it's developing web platforms, applications, or integrated systems, Startup Tech is ready to embrace challenges and shape the future of technology.
-                </p>
-                <button>Saiba mais</button>
-            </div>
-        </section>
-    </main>
-    <footer>
+      <section id="apresentation">
+        <img src="assets/img/bg_apresentacao.jpeg" alt="apresentation image" />
+        <div>
+          <!--Apresentação da startup-->
+          <h2>Startup Tech</h2>
+          <h3>The best technology development hub in Brazil.</h3>
+          <p>
+            Startup Tech is an innovation hub focused on developing cutting-edge
+            technological solutions.
+          </p>
+          <p>
+            Our mission is to drive digital transformation through intelligent
+            software, automation, and artificial intelligence. We harness modern
+            technologies to create scalable, efficient products that help
+            companies optimize processes and reach new heights.
+          </p>
+          <p>
+            With a highly skilled team passionate about innovation, we are
+            always on the lookout for fresh opportunities to revolutionize the
+            market. Whether it's developing web platforms, applications, or
+            integrated systems, Startup Tech is ready to embrace challenges and
+            shape the future of technology.
+          </p>
+          <button>Learn more</button>
+          <!--Fim da apresentação-->
+        </div>
+      </section>
+      <!--Serviços da StartupTech-->
+      <section id="services">
+        <h2>Services of the Startup Tech</h2>
 
-    </footer>
-</body>
+        <div id="cards">
+          <!--Card sobre DesenvolvimentoWeb-->
+          <div class="card">
+            <img
+              src="/assets/img/card-desenvolvimentoweb.png"
+              alt="Imagem de desenvlvimento Web"
+            />
+            <h3>Desenvolvimento Web</h3>
+            <p>
+              O serviço de Desenvolvimento Web da Startup Tech cria sites
+              modernos, responsivos e otimizados, garantindo alta performance,
+              usabilidade intuitiva e design inovador para empresas que desejam
+              fortalecer sua presença digital e alcançar novos clientes.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <!--Fim do card sobre DesenvolvimentoWeb-->
+          <!--Card sobre Consultorias-->
+          <div class="card">
+            <img
+              src="/assets/img/card-consultoriatech.png"
+              alt="Imagem de desenvlvimento Web"
+            />
+            <h3>Consultoria Tech</h3>
+            <p>
+              A Consultoria Tech da Startup Tech oferece soluções estratégicas
+              para empresas, auxiliando na escolha de tecnologias, otimização de
+              processos, segurança digital e inovação, garantindo eficiência,
+              escalabilidade e competitividade no mercado digital.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <!--Fim do card sobre Consultorias-->
+          <!--Card sobre Infraestrutura Cloud-->
+          <div class="card">
+            <img
+              src="/assets/img/card-infraestruturacloud.png"
+              alt="Imagem de desenvlvimento Web"
+            />
+            <h3>Infraestrutura Cloud</h3>
+            <p>
+              A Infraestrutura Cloud da Startup Tech oferece armazenamento
+              seguro, escalável e de alta performance, garantindo acessibilidade
+              remota, proteção de dados, automação e eficiência para empresas
+              que buscam soluções tecnológicas inovadoras e confiáveis na nuvem.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <!--Fim do card sobre Infraestrutura Cloud-->
+          <!--Card sobre Segurança da Informação-->
+          <div class="card">
+            <img
+              src="/assets/img/card-segurancadainformacao.png"
+              alt="Imagem de desenvlvimento Web"
+            />
+            <h3>Segurança da Informação</h3>
+            <p>
+              A Segurança da Informação da Startup Tech protege dados e sistemas
+              contra ameaças cibernéticas, garantindo confidencialidade,
+              integridade e disponibilidade. Implementamos criptografia,
+              monitoramento contínuo, autenticação multifator e backups
+              automatizados para máxima proteção.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <!--Fim do card sobre Segurança da Informação-->
+        </div>
+        <!--Fim dos cards-->
+      </section>
+      <!--Fim dos Serviços da StartupTEch-->
+    </main>
+    <!--Fim da parte principal-->
+    <footer></footer>
+  </body>
 </html>
