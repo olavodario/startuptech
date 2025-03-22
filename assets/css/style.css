@@ -218,13 +218,20 @@ header img {
 
 .card button{
     margin: 30px 0px 30px 0px;
-    border: 1px solid var(--colorHeader);
+    border: 1px solid var(--colorFont);
     border-radius: 7px;
     width: 60%;
     height: 40px;
     font-size: 18px;
     font-weight: 500;
     background-color: var(--colorFont);
+    transition: all 0.5s ease;
+}
 
+.card button:hover{
+    cursor: pointer;
+    background-color: var(--colorHeader);
+    color: var(--colorFont);
+    border-color: var(--colorHeader);
 }
 /*Fim Estiliação dos serviços*/
