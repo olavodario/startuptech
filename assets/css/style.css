@@ -197,6 +197,7 @@ header img {
     color: var(--colorHeader);
     box-shadow: 5px 5px 5px var(--colorHeader);
     transform: translateY(-20px);
+    cursor: pointer;
 }
 
 .card img {
