@@ -13,6 +13,7 @@
   --colorHeader: #0a0a0a;
   --colorSelect: #d000de;
   --colorWhatsapp: #1bd741;
+  --colorFocus: #a2a2a2;
 }
 
 * {
@@ -160,14 +161,14 @@ body {
 }
 
 /*Estiliação dos serviços*/
-#serviços {
+#servicos {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
   padding: 10px;
 }
 
-#serviços h2 {
+#servicos h2 {
   text-align: center;
   color: var(--colorFont);
   font-weight: 800;
@@ -390,8 +391,8 @@ body {
 
 #whatsapp-button {
   position: fixed;
-  width: 85px;
-  height: 85px;
+  width: 100px;
+  height: 100px;
   z-index: 2;
   color: var(--colorFont);
   top: 85%;
@@ -410,5 +411,173 @@ body {
 #whatsapp-button a {
   text-decoration: none;
   color: var(--colorFont);
-  font-size: 60px;
+  font-size: 80px;
 }
+
+#up-button {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  color: var(--colorFont);
+  top: 3%;
+  left: 93%;
+  border: 3px solid var(--colorFont);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: var(--colorHeader);
+  box-shadow: 3px 3px 3px var(--colorHeader);
+  cursor: pointer;
+}
+
+#up-button a {
+  text-decoration: none;
+  color: var(--colorFont);
+  font-size: 50px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorHeader);
+  color: var(--colorFont);
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+}
+
+#contato h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#contato form{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+}
+
+#contato form label {
+  font-size: 24px;
+  font-weight: 400px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#contato form input, textarea {
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid var(--colorFont);
+  background-color: var(--colorFont);
+  margin-bottom: 10px;
+  transition: all 0.65s ease;
+  color: var(--colorHeader);
+}
+
+#contato form input:hover, textarea:hover {
+  background-color: var(--colorFocus);
+  color: var(--colorFont);
+}
+
+#contato form input:focus, textarea:focus {
+  background-color: var(--colorHeader);
+  color: var(--colorFont);
+  border: 1px solid var(--colorFont);
+  box-shadow: 3px 3px 3px var(--colorFocus);
+}
+
+#contato form textarea{
+  height: 200px;
+}
+
+#contato form div{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 50px;
+  transition: all 0.75s ease;
+}
+
+#contato form div input[value="Enviar"] {
+  width: 20%;
+  height: 60px;
+  background-color: var(--colorHeader);
+  color: var(--colorFont);
+}
+
+#contato form div input[value="Reset"] {
+  width: 20%;
+  height: 60px;
+  background-color: var(--colorHeader);
+  color: var(--colorFont);
+}
+
+#contato form div input:hover {
+  cursor: pointer;
+  background-color: var(--colorFont);
+  color: var(--colorHeader);
+}
+
+footer {
+  background-color: var(--colorFont);
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#desenvolvedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#desenvolvedor img{
+  width: 60px;
+}
+
+#desenvolvedor-identificacao p{
+  color: var(--colorHeader);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#desenvolvedor-identificacao h3{
+  color: var(--colorHeader);
+  font-weight: 800;
+  font-size: 32px;
+}
+
+#desenvolvedor-servicos li{
+  list-style-type: none;
+  padding: 0;
+  font-weight: 300;
+}
+
+#redessociais {
+  color: var(--colorHeader);
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+#redessociais a{
+  color: var(--colorHeader);
+  transition: all 1s ease;
+}
+
+#redessocias a:hover{
+  color: var(--colorSelect);
+  scale: 1.2;
+}
+

@@ -27,14 +27,14 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <img src="assets/icons/logo_startuptech.svg" alt="logo da StartupTech" id="logo-startuptech"/>
       <nav class="header-nav">
         <a href="index.html" class="header-nav-a">
           <i class="fa-solid fa-house"></i>
           <span>Home</span>
         </a>
-        <a href="#serviços" class="header-nav-a">
+        <a href="#servicos" class="header-nav-a">
           <i class="fa-solid fa-toolbox"></i>
           <span>Serviços</span>
         </a>
@@ -70,7 +70,7 @@
         </div>
       </section>
       <!--Serviços da StartupTech-->
-      <section id="serviços">
+      <section id="servicos">
         <h2>Services of the Startup Tech</h2>
 
         <div id="cards">
@@ -292,19 +292,55 @@
         </a>
       </div>
       <!-- Fim do botao do whatsapp -->
-       <!-- Inicio do formulario do contato -->
+      <div id="up-button">
+        <a href="#home">
+          <i class="fa-solid fa-turn-up"></i>
+        </a>
+      </div>
+      <!-- Inicio do formulario do contato -->
       <section id="contato">
+        <h2>Entre em contato</h2>
         <form action="">
           <label for="name">Nome</label>
           <input type="text" name="Nome" id="nome">
           <label for="email">E-mail</label>
-          <input type="text" name="email" id="email">
+          <input type="text" name="Email" id="email">
           <label for="assunto">Assunto</label>
-          <input type="text" name="">
+          <input type="text" name="Assunto" id="assunto">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="Mensagem" id="mensagem"></textarea>
+          <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+          </div>
         </form>
       </section>
     </main>
     <!--Fim da parte principal-->
-    <footer></footer>
+    <footer>
+      <section id="desenvolvedor">
+        <img src="assets/img/icone-dev.png" alt="Icone Dev">
+        <div id="desenvolvedor-identificacao">
+          <p>Desenvolvido por</p>
+          <h3>Olavo Dario &reg;</h3>
+        </div>
+      </section>
+      <section id="desenvolvedor-servicos">
+        <ul>
+          <li>Desenvolvimento de sites</li>
+          <li>Design de Interfaces do Usuário (UI)</li>
+          <li>Otimização para SEO</li>
+          <li>Criação de Identidade Visual</li>
+          <li>Manutenção de Sites e Atualizações</li>
+        </ul>
+      </section>
+      <section id="redessociais">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+      </section>
+    </footer>
   </body>
 </html>
