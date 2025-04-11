@@ -672,16 +672,39 @@ footer {
   }
 
   #whatsapp-button{
-    top: 90%;
-    left: 66%;
+    top: 88%;
+    left: 80%;
     position: fixed;
     z-index: 2;
   }
   
   #up-button {
     top: 3%;
-    left: 66%;
+    left: 80%;
     position: fixed;
     z-index: 2;
+  }
+
+  #contato form{
+    width: 80%;
+  }
+
+  footer {
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #desenvolvedor{
+    margin-top: 15px;
+  }
+
+  #desenvolvedor-servicos li{
+    margin-bottom: 6px;
+  }
+
+  #redessociais {
+    margin-bottom: 15px;
+    gap: 15px;
   }
 }
