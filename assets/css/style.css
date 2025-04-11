@@ -581,3 +581,107 @@ footer {
   scale: 1.3;
 }
 
+@media (max-width: 576px) {
+  .header-nav{
+    gap: 7px;
+    font-size: 5px;
+    padding: 2px 65px 2px 0px;
+  }
+
+  .header-nav i{
+    font-size: 20px;
+  }
+
+  .header-nav span{
+    font-size: 15px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #logo-startuptech{
+    width: 70px;
+  }
+
+  #apresentacao {
+    flex-direction: column;
+  }
+
+  #apresentacao img{
+    width: 100%;
+  }
+
+  #apresentacao div{
+    width: 100%;
+  }
+
+  #servicos {
+    margin-bottom: 80px;
+  }
+
+  #cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .card h3{
+    text-align: left;
+    align-items: left;
+  }
+
+  .card p {
+    height: 160px;
+  }
+
+  #quemsomos h2{
+    margin-bottom: 50px;
+  }
+
+  #listadeproficionais{
+    height: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #listadeproficionais a{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #listadeproficionais a:hover{
+    border-bottom: 0px solid;
+  }
+
+  #listadeproficionais a img{
+    border-radius: 100%;
+    width: 40%;
+  }
+
+  .proficionais{
+    flex-direction: column;
+  }
+
+  .proficional{
+    width: 80%;
+  }
+
+  #whatsapp-button{
+    top: 90%;
+    left: 66%;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  #up-button {
+    top: 3%;
+    left: 66%;
+    position: fixed;
+    z-index: 2;
+  }
+}
